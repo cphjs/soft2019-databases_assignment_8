@@ -7,3 +7,8 @@ You can set up the slave using the following command, just change the `MASTER_PA
 ```
 CHANGE MASTER TO MASTER_HOST='167.99.214.12',MASTER_USER='slave_user', MASTER_PASSWORD='replace me'
 ```
+
+And then start running it using
+```
+START SLAVE;
+```
