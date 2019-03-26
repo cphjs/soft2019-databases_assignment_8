@@ -1,6 +1,5 @@
 # Assignment 8
 
-
 The master databases IP address is: 167.99.214.12
 
 You can set up the slave using the following command, just change the `MASTER_PASSWORD` you received with this submission:
@@ -12,3 +11,6 @@ And then start running it using
 ```
 START SLAVE;
 ```
+
+
+UPDATE:The slave has all privileges to the master database so you can insert/delete stuff to verify it is working.
